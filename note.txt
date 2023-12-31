@@ -1,0 +1,3 @@
+cmd to create 'go.mod' file -> go mod init <folder_name>
+
+cmd to create a binary file -> go build .

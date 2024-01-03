@@ -3,6 +3,9 @@ go 1.21.5
 use (
 	./conversion
 	./hello
+	./myarray
+	./mypointers
+	./myslices
 	./mytime
 	./userinput
 	./variables

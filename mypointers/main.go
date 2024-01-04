@@ -9,7 +9,7 @@ func main() {
 	// fmt.Println("Value of pointer is ", ptr)
 
 	myNumber := 23
-	var ptr = &myNumber
+	ptr := &myNumber
 	fmt.Println("Value of actual pointer is ", ptr)
 	fmt.Println("Value of actual pointer is ", *ptr)
 

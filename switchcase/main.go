@@ -12,15 +12,15 @@ func main() {
 	source := rand.NewSource(time.Now().UnixNano())
 	rng := rand.New(source)
 	randomMinutes := rng.Intn(15) + 1
-	fmt.Printf("Random minutes: %v\n", randomMinutes)
+	fmt.Printf("Random time: %v minutes\n", randomMinutes)
 
-	// rand.Seed(time.Now().UnixNano()) this is deprecated
+	// rand.Seed(time.Now().UnixNano()) ->this method is deprecated
 	diceNumber := rand.Intn(6) + 1
 	fmt.Println("value of dice is ", diceNumber)
 
 	switch diceNumber {
 	case 1:
-		fmt.Println("Dice value if 1 and you can open")
+		fmt.Println("You can open or move 1 spot.")
 	case 2:
 		fmt.Println("You can move 2 spot")
 	case 3:

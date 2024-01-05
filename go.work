@@ -2,8 +2,13 @@ go 1.21.5
 
 use (
 	./conversion
+	./defer
+	./files
+	./functions
 	./hello
 	./ifelse
+	./loops
+	./methods
 	./myarray
 	./mymaps
 	./mypointers

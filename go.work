@@ -16,6 +16,8 @@ use (
 	./mystruct
 	./mytime
 	./switchcase
+	./urlhandeling
 	./userinput
 	./variables
+	./webrequests
 )

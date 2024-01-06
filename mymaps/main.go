@@ -5,6 +5,14 @@ import "fmt"
 func main() {
 	fmt.Println("Welcome to maps in golang")
 
+	// Creating a map with string keys and int values
+    ages := map[string]int{
+        "Alice": 25,
+        "Bob":   30,
+        "Charlie": 22,
+    }
+	fmt.Println(ages)
+
 	languages := make(map[string]string)
 
 	languages["js"] = "Javascript"

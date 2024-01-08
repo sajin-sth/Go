@@ -6,6 +6,7 @@ use (
 	./defer
 	./files
 	./functions
+	./golangtesting
 	./hello
 	./ifelse
 	./loops

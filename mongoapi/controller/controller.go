@@ -15,9 +15,12 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-const connectionString = "mongodb://localhost:27017"
-const dbName = "netflix"
-const colName = "watchlist"
+const (
+	// connectionString = "mongodb://username:password@localhost:27017" // Replace "username" and "password" with your MongoDB credentials
+	connectionString = "mongodb://localhost:27017"
+	dbName           = "netflix"
+	colName          = "watchlist"
+)
 
 // most inportant
 var collection *mongo.Collection

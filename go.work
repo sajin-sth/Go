@@ -10,6 +10,7 @@ use (
 	./ifelse
 	./loops
 	./methods
+	./mongoapi
 	./myarray
 	./myjson
 	./mymaps

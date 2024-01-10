@@ -2,16 +2,19 @@ go 1.21.5
 
 use (
 	./buildapi
+	./channels
 	./conversion
 	./defer
 	./files
 	./functions
 	./golangtesting
+	./goroutines
 	./hello
 	./ifelse
 	./loops
 	./methods
 	./mongoapi
+	./mutexAndAwaitGroup
 	./myarray
 	./myjson
 	./mymaps

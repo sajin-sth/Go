@@ -16,7 +16,9 @@ func main() {
 
 func greeter() {
 	fmt.Println("Namaste from golang")
+	secondGreeter()
 }
+
 
 func adder(x int, y int) int {
 	return (x + y)
@@ -30,4 +32,8 @@ func proAdder(values ...int) (int, string) {
 	}
 
 	return total, "Hi pro result"
+}
+
+func secondGreeter() {
+	fmt.Println("Nested function message")
 }
